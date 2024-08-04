@@ -5,8 +5,8 @@ const NavBar = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="#">Start Bootstrap</a>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ml-auto">
+      <div className="collapse navbar-collapse d-flex justify-content-end px-3">
+        <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link" href="#">Home</a>
           </li>
